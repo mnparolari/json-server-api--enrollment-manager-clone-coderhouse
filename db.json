@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Homer",
+      "surname": "Simpson",
+      "phone": "1122334455",
+      "email": "homer@gmail.com",
+      "password": "123456789",
+      "userType": "Administrador",
+      "img": "https://objetivoligar.com/wp-content/uploads/2017/03/blank-profile-picture-973460_1280.jpg",
+      "token": "psjwjeufnFSHFRjJkL8523"
+    },
+    {
+      "name": "Marge",
+      "surname": "Simpson",
+      "phone": "12312312313",
+      "email": "marge@gmail.com",
+      "password": "123456789",
+      "userType": "Usuario",
+      "img": "https://objetivoligar.com/wp-content/uploads/2017/03/blank-profile-picture-973460_1280.jpg",
+      "token": "psjwjeufnFSHFRjJkL8512",
+      "id": 2
+    }
+  ],
+  "students": [
+    {
+      "name": "Moe",
+      "surname": "Szyslak",
+      "phone": "1122334455",
+      "email": "jp@gmail.com",
+      "password": "123456789",
+      "img": "https://objetivoligar.com/wp-content/uploads/2017/03/blank-profile-picture-973460_1280.jpg",
+      "id": 1
+    },
+    {
+      "name": "Edna",
+      "surname": "Krabappel",
+      "phone": "01541541544",
+      "email": "edna@gmail.com",
+      "password": "123456789",
+      "img": "https://objetivoligar.com/wp-content/uploads/2017/03/blank-profile-picture-973460_1280.jpg",
+      "id": 2
+    }
+  ],
+  "courses": [
+    {
+      "icon": "./assets/img/angular.png",
+      "name": "Angular",
+      "category": "Programación y Desarrollo",
+      "teacher": "Ned Flanders",
+      "courseFrom": "4/8/2023",
+      "courseTo": "31/8/2023",
+      "id": 1
+    },
+    {
+      "icon": "./assets/img/react.png",
+      "name": "ReactJS",
+      "category": "Programación y Desarrollo",
+      "teacher": "Apu Nahasapeemapetilon",
+      "courseFrom": "01/08/2023",
+      "courseTo": "31/10/2023",
+      "id": 4
+    },
+    {
+      "icon": "./assets/img/figma.png",
+      "name": "Figma",
+      "category": "Diseño UX/UI",
+      "teacher": "Elizabeth Hoover",
+      "courseFrom": "05/06/2023",
+      "courseTo": "15/09/2023",
+      "id": 5
+    }
+  ],
+  "inscriptions": [
+    {
+      "id": 1,
+      "courseId": 4,
+      "studentId": 1
+    },
+    {
+      "id": 2,
+      "courseId": 1,
+      "studentId": 2
+    }
+  ]
+}

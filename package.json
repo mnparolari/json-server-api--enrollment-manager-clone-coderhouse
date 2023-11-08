@@ -1,0 +1,20 @@
+{
+  "name": "json-server-api--enrollment-manager-clone-coderhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnparolari/json-server-api--enrollment-manager-clone-coderhouse.git"
+  },
+  "author": "Martin Parolari",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.4"
+  }
+}
